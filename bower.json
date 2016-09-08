@@ -1,0 +1,79 @@
+{
+  "name": "template-instagram",
+  "description": "template",
+  "authors": [
+    "Glauro Quintão Juliani"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "template"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "2.2.4",
+    "requirejs": "^2.2.0",
+    "owl.carousel": "OwlCarousel2#^2.1.6",
+    "scrollreveal": "^3.3.1",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-bootstrap": "^2.1.3",
+    "angular-animate": "^1.5.8"
+  },
+  "overrides": {
+    "requirejs": {
+      "main": [
+        "./require.js"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "./dist/jquery.min.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "./dist/js/bootstrap.min.js"
+      ]
+    },
+    "owl.carousel": {
+      "main": [
+        "./dist/owl.carousel.min.js"
+      ]
+    },
+    "scrollreveal": {
+      "main": [
+        "./dist/scrollreveal.min.js"
+      ]
+    },
+    "angular": {
+      "main": [
+        "./angular.min.js"
+      ]
+    },
+    "angular-route": {
+      "main": [
+        "./angular-route.min.js"
+      ]
+    },
+    "angular-bootstrap": {
+      "main": [
+        "./ui-bootstrap.min.js"
+      ]
+    },
+    "angular-animate": {
+      "main": [
+        "./angular-animate.min.js"
+      ]
+    }
+  }
+}
